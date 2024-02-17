@@ -16,7 +16,7 @@ This application keeps track of the user's dribbling skills. The main components
 
 ## Outputs
 
-https://github.com/Chandrahas-B/CV_Dribbling/assets/84665480/61392028-be13-42a6-a824-99a51b4eff94
+To watch the results from the analysis: <a href= "https://github.com/Chandrahas-B/CV_Dribbling/blob/main/outputs/video.mp4"> Click here </a>
 
 ## Steps to perform the above functionalities
 
@@ -39,6 +39,14 @@ To achieve the above functionalities, the following steps were implemented:
 ## Challenges
 The video had variations in the lighting which can usually cause some errors while performing the classification in object detection. This error was very evident while predicting the ball. In some cases, the 'sports ball' was considered as a 'frisbee' and sometimes not even detected.
 
-To overcome this, object tracking with **SORT** was also experimented with **YOLOvn**. However, the use if YOLOv8l provided similar results and made SORT redundant.
+To overcome this, object tracking with **SORT** was also experimented with **YOLOvn**. However, the use of YOLOv8l provided similar results and made SORT redundant.
 
 Another evident challenge was the movement of the camera, which was not suitable for the object detection task. However, for this task, the movement did not cause any problems.
+
+
+## Run it locally
+ Clone the repository and install all the packages in rquirements.txt
+Then run the following command:
+```
+python app/main.py --source <SOURCE_PATH> 
+```
