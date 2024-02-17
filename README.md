@@ -13,6 +13,8 @@ This application keeps track of the user's dribbling skills. The main components
 3. Number of cross dribbling. (left-to-right or right-to-left).
 
 4. The number of times the basketball went up and down during the dribbling.
+![Screenshot from 2024-02-18 00-07-14](https://github.com/Chandrahas-B/CV_Dribbling/assets/84665480/6e33eed2-c7ca-44bb-bc7c-b07d70c073ec)
+
 
 ## Outputs
 
